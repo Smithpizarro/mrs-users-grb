@@ -1,9 +1,12 @@
 # mrs-users-grb
 A continuacion de indicara el flujo para el proceso.
 **Spring boot application  REST API  se tiene expuesto en el puerto 8092.**
-Consideraciones:
+**Consideraciones:**
+
 1.- Java 11
+
 2.- Gradle
+
 3.- Habilitar Lombok
 
 ## 1. peticion del authenticate 
