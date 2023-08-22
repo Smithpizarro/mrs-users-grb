@@ -4,11 +4,13 @@ A continuacion de indicara el flujo para el proceso.
 
 ## 1. peticion del authenticate 
 http://localhost:8092/grb/authenticate POST
+
 body:
-{
+<sub>{
 "username": "jpizarroaguado@gmail.com",
 "password": "Arlette1234"
 }
+ </sub>
  obs: se tiene un usuario inicial de prueba.
 
 ## 1. validacion del jwt en la lista usuarios 
