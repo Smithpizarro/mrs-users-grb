@@ -19,13 +19,13 @@ http://localhost:8092/grb/authenticate POST
 "password": "Arlette1234"
 }
 </sub>
-
  obs: se tiene un usuario inicial de prueba.
+ ![Diagram](./src/main/resources/user_paso1.jpg "Diagram")
 
 ## 1. validacion del jwt en la lista usuarios 
 http://localhost:8092/grb/users  GET
 
-
+ ![Diagram](./src/main/resources/user_paso2.jpg "Diagram")
 ## 2. validacion del jwt y creacion de  usuario 
 http://localhost:8092/grb/users POST
 
@@ -45,3 +45,4 @@ http://localhost:8092/grb/users POST
 }
 </sub>
 
+ ![Diagram](./src/main/resources/user_paso3.jpg "Diagram")
