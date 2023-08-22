@@ -19,14 +19,16 @@ http://localhost:8092/grb/authenticate POST
 "password": "Arlette1234"
 }
 </sub>
+
  obs: se tiene un usuario inicial de prueba.
+ 
  ![Diagram](./src/main/resources/user_paso1.jpg "Diagram")
 
-## 1. validacion del jwt en la lista usuarios 
+## 2. validacion del jwt en la lista usuarios 
 http://localhost:8092/grb/users  GET
 
  ![Diagram](./src/main/resources/user_paso2.jpg "Diagram")
-## 2. validacion del jwt y creacion de  usuario 
+## 3. validacion del jwt y creacion de  usuario 
 http://localhost:8092/grb/users POST
 
 **body:**
@@ -46,3 +48,14 @@ http://localhost:8092/grb/users POST
 </sub>
 
  ![Diagram](./src/main/resources/user_paso3.jpg "Diagram")
+
+
+ ## 4. validacion del correo
+ ![Diagram](./src/main/resources/user_paso4.jpg "Diagram")
+
+ ![Diagram](./src/main/resources/user_paso5.jpg "Diagram")
+
+  ## 5. validacion del password
+  El formato es de minimo 8 caracteres y que tenga al menos 1 numero y un caracter en mayuscula.
+  
+   ![Diagram](./src/main/resources/user_paso6.jpg "Diagram")
