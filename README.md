@@ -6,12 +6,14 @@ A continuacion de indicara el flujo para el proceso.
 http://localhost:8092/grb/authenticate POST
 
 **body:**
+
 <sub>{
 "username": "jpizarroaguado@gmail.com",
 "password": "Arlette1234"
 }
 </sub>
- **obs: se tiene un usuario inicial de prueba.**
+
+ obs: se tiene un usuario inicial de prueba.
 
 ## 1. validacion del jwt en la lista usuarios 
 http://localhost:8092/grb/users  GET
@@ -19,8 +21,10 @@ http://localhost:8092/grb/users  GET
 
 ## 2. validacion del jwt y creacion de  usuario 
 http://localhost:8092/grb/users POST
-body:
-{
+
+**body:**
+
+<sub>{
 "name": "Juan Rodriguez",
 "email": "jpizarrosmith@gmail.com",
 "password": "Arlette1235",
@@ -32,4 +36,5 @@ body:
                 }
            ]        
 }
+</sub>
 
